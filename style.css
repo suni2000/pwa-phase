@@ -1,0 +1,77 @@
+/*this is desktop view*/
+body{
+	background:pink;
+}
+.maindiv{
+	background-color:blue;
+	display: flex;
+	justify-content:space-around;
+	margin:5%;
+	border-radius:4%;
+}
+.subdiv{
+	background:green;
+	margin:5%;
+	widows:25%;
+	border-radius: 4%;
+	text-align: center;
+	box-shadow:4px 4px 4px 4px;
+}
+img{
+	height:40%;
+	width:70%;
+	margin:5%;
+	border-radius:15%;
+}
+/*this is mobile view*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+.maindiv{
+	background:green;
+	background:blue;
+	display:inline-block;
+	margin:2%;
+	border-radius: 4%;
+
+	width:96%;
+}
+.subdiv{
+	margin:2%;
+	width:90%;
+	border-radius: 4%;
+	text-align: center;
+	box-shadow:1px 1px 1px 1px;
+}
+img{
+	height:30%;
+	width:50%;
+	margin:2%;
+	border-radius:15%;
+}
+}
+/*this is tab view*/
+@media screen and (min-width: 480px) and (max-width: 680px){
+.maindiv{
+	background:green;
+	display:flex;
+	flex-wrap: wrap;
+	margin:2%;
+	border-radius: 4%;
+	justify-content: space-around;
+
+	width:96%;
+}
+.subdiv{
+	background:blue;
+	margin:2%;
+	width:40%;
+	border-radius: 4%;
+	text-align: center;
+	box-shadow:1px 1px 1px 1px;
+}
+img{
+	height:40%;
+	width:70%;
+	margin:2%;
+	border-radius:15%;
+}
+}

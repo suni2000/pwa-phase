@@ -1,0 +1,117 @@
+/*this is desktop view*/
+.maindiv{
+	background: green;
+	margin: 10%;
+	display: flex;
+	border-radius: 5%;
+}
+.leftdiv{
+	background: blue;
+	text-align: center;
+	table-layout: 40%;
+	margin: 5%;
+	width: 25%;
+	height:45%;
+	border-radius: 4%;
+	box-shadow: 2px 2px 2px 2px;
+}
+.subdiv{
+	border-radius: 5%;
+	box-shadow: 2px 2px 2px 2px;
+	background: gold;
+	text-align: left;
+	margin: 5%;
+	width: 40%;
+	height:50%;
+	padding: 2%;
+	margin:5%;
+	}
+	img{
+		height:40%;
+		width:70%;
+		margin:5%;
+		border-radius: 15%;
+	}
+/*this is mobile view*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+.maindiv{
+	background: green;
+	margin: 10%;
+	width:97%;
+	display: inline-block;
+	border-radius: 5%;
+}
+.leftdiv{
+	background: blue;
+	margin: 5%;
+	width: 90%;
+	height:45%;
+	border-radius: 5%;
+	box-shadow: 2px 2px 2px 2px;
+	word-wrap: break-word;
+}
+.subdiv{
+	table-layout: 30%;
+
+	border-radius: 5%;
+	box-shadow: 2px 2px 2px 2px;
+	background: gold;
+	text-align: left;
+	margin: 2%;
+	width: 85%;
+	height:35%;
+	padding: 2%;
+	margin:5%;
+	word-wrap: break-word;
+}
+img{
+	width:50%;
+	height:30%;
+	margin:2%;
+
+}
+}
+/*this is tab view*/
+@media screen and (min-width: 481px) and (max-width: 680px){
+.maindiv{
+	background: green;
+	margin: 2%;
+	width: 90%;
+	border-radius: 5%;
+	display: inline-block;
+	justify-content: space-around;
+	padding: 5%;
+}
+.leftdiv{
+	background: blue;
+	text-align: center;
+	margin: 4%;
+	width: 90%;
+	height: 45%;
+	border-radius: 3%;
+	box-shadow: 2px 2px 2px 2px;
+	word-wrap: break-word;
+	padding: 2%;
+}
+.subdiv{
+	border-radius: 5%;
+	box-shadow: 2px 2px 2px 2px;
+	background: gold;
+	text-align: left;
+	padding:2%;
+	margin:4%;
+	width:300px;
+	height:45%;
+	word-wrap: break-word;
+}
+table{
+	overflow-x: auto;
+}
+img{
+	width:70%;
+	height:40%;
+	margin:4%;
+	border-radius:15%;
+
+}
+}

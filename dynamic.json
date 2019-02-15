@@ -1,0 +1,48 @@
+{
+	"profile":{
+		"img":"coin.png",
+		"name":"sunitha",
+		"rollno":"12345",
+		"place":"kakinada",
+		"destination":"student"
+	},
+	"carrer":{
+		"info":"i want to seek a positin where i can explore my thoughts"
+	},
+	"education":[
+		{
+			"sno":"1",
+			"degree":"btech",
+			"institute":"pragati college",
+			"per":"80",
+			"yop":"2021"
+		},
+		{
+			
+			"sno":"2",
+			"degree":"inter",
+			"institute":"naraayana college",
+			"per":"88",
+			"yop":"2016"
+		},
+		{
+	     	"sno":"3",
+  			"degree":"school",
+			"institute":"narayana school",
+			"per":"93",
+			"yop":"2015"
+		}
+	],
+	"languages":[
+		{
+		   "lang":"English"
+		},
+		{
+			"lang":"telugu"
+		},
+		{
+			"lang":"hindi"
+		}
+	]
+
+}
